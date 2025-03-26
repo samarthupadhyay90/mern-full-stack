@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#" class="search">Search</a>
+                </div>
+
+            </div>
+            <div class="library">
+                <div class="library-option">
+                    <div class="option-left">
+                        <img src="./assets/library_icon.png" alt="library_icon">
+                        <h4>Your Library</h4>
+                    </div>
+                    <div class="option-right">
+                        <!-- <img src="" alt=""> -->
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+
+
+
+                </div>
+                <div class="lib-box-1">
+                    <div class="box-p1">create Your first playlist</div>
+                    <div class="box-p2">it's easy, we'll help you</div>
+                    <button class="spo-button">Create Playlist</button>
+                </div>
+                <div class="lib-box-1">
+                    <div class="box-p1">Let's find some podcasts to follow</div>
+                    <div class="box-p2">we'll keep you updated on new episodes</div>
+                    <button class="spo-button">Browse podcasts</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="left">
+                    <img src="./assets/backward_icon.png" alt="assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" alt="forward_icon">
+                </div>
+                <div class="right">
+                    <button class="spo-button">Upgrade</button>
+                    <button class="spo-button-white"> <i class="fa-regular fa-circle-down"></i> Install App</button>
+                    <i class="fa-regular fa-user i"></i>
+                </div>
+
+            </div>
+            <section class="first-section">
+                <div class="recently">
+                    <h2>Recently played</h2>
+                    <div class="card-upper-body card-upper-body-2"> 
+                    <div class="cards">
+                        <div class="card-img">
+                            <img src="./assets/card1img.jpeg" alt="card1img">
+                        </div>
+                       <div class="card-body">
+                        <h4>Top 50 - Global</h4>
+                        <p>your daily update of
+                            <br> the most played.....</p>
+                            <button class="card-btn">Play</button>
+                       </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card-img">
+                            <img src="./assets/card2img.jpeg" alt="card1img">
+                        </div>
+                       <div class="card-body">
+                        <h4>Top 50 - Global</h4>
+                        <p>your daily update of
+                            <br> the most played.....</p>
+                            <button class="card-btn">Play</button>
+                       </div>
+                    </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="first-section second-section">
+                <div class="recently">
+                    <div class="headline original">
+                        <h2>Spotify Original & Exclusive Podcasts</h2>
+                        <a href="#">Show all</a>
+                    </div>
+                    <div class="card-upper-body">
+                        <!-- Card 1 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/img-1.jpeg" alt="The Daily Mix">
+                            </div>
+                            <div class="card-body">
+                                <h4>The Daily Mix</h4>
+                                <p>Fresh episodes daily
+                                    <br> on trending topics....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+            
+                        <!-- Card 2 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/img-2.jpeg" alt="True Crime Stories">
+                            </div>
+                            <div class="card-body">
+                                <h4>True Crime Stories</h4>
+                                <p>Dive into gripping tales
+                                    <br> of real-life mysteries....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+            
+                        <!-- Card 3 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/img-3.jpeg" alt="Tech Talk">
+                            </div>
+                            <div class="card-body">
+                                <h4>Tech Talk</h4>
+                                <p>Explore the latest in
+                                    <br> tech and innovation....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+            
+                        <!-- Card 4 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/img-4.jpeg" alt="Mindful Moments">
+                            </div>
+                            <div class="card-body">
+                                <h4>Mindful Moments</h4>
+                                <p>Find peace with guided
+                                    <br> meditation sessions....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+            
+                        <!-- Card 5 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/img-6.jpeg" alt="Pop Culture Now">
+                            </div>
+                            <div class="card-body">
+                                <h4>Pop Culture Now</h4>
+                                <p>Stay updated on the
+                                    <br> latest pop culture....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+            
+                        <!-- Card 6 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/card2img.jpeg" alt="History Uncovered">
+                            </div>
+                            <div class="card-body">
+                                <h4>History Uncovered</h4>
+                                <p>Unearth fascinating
+                                    <br> stories from the past....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+            
+                        <!-- Card 7 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/card3img.jpeg" alt="Comedy Hour">
+                            </div>
+                            <div class="card-body">
+                                <h4>Comedy Hour</h4>
+                                <p>Laugh out loud with
+                                    <br> top comedians....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+            
+                        <!-- Card 8 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/card4img.jpeg" alt="Music Legends">
+                            </div>
+                            <div class="card-body">
+                                <h4>Music Legends</h4>
+                                <p>Discover the stories
+                                    <br> behind iconic artists....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="first-section second-section">
+                <div class="recently">
+                    <div class="headline original">
+                        <h2>Featured Charts</h2>
+                        <a href="#">Show all</a>
+                    </div>
+                    <div class="card-upper-body">
+                        <!-- Card 1 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/card5img.jpeg" alt="Top Hits">
+                            </div>
+                            <div class="card-body">
+                                <h4>Top Hits - 2023</h4>
+                                <p>Explore the hottest tracks
+                                    <br> of the year so far....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+            
+                        <!-- Card 2 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/card6img.jpeg" alt="Pop Classics">
+                            </div>
+                            <div class="card-body">
+                                <h4>Pop Classics</h4>
+                                <p>Relive the timeless hits
+                                    <br> from the pop genre....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+            
+                        <!-- Card 3 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/card1img.jpeg" alt="Chill Vibes">
+                            </div>
+                            <div class="card-body">
+                                <h4>Chill Vibes</h4>
+                                <p>Relax with soothing tunes
+                                    <br> for your downtime....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+            
+                        <!-- Card 4 -->
+                        <div class="cards">
+                            <div class="card-img">
+                                <img src="./assets/img-5.jpg" alt="Workout Beats">
+                            </div>
+                            <div class="card-body">
+                                <h4>Workout Beats</h4>
+                                <p>Power up your workouts
+                                    <br> with high-energy tracks....</p>
+                                <button class="card-btn">Play</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+        </div>
+        <div class="music-player">
+            <div class="music-left">
+                <img src="./assets/album_picture.jpeg" alt="">
+                <div class="inner-center">
+                 <h5>Daylight</h5>
+                <p>David Kushneer</p>
+                </div>
+                <div class="icon-set-right">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-calendar"></i>
+                </div>
+               
+
+            </div>
+            <div class="center">
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, corporis.
+                </p> -->
+                <div class="upper">
+                    <img src="./assets/player_icon1.png" alt="" class="player-icon-img">
+                    <img src="./assets/player_icon2.png" alt="" class="player-icon-img">
+                    <img src="./assets/player_icon3.png" alt="" class="player-icon-img player">
+                    <img src="./assets/player_icon4.png" alt="" class="player-icon-img">
+                    <img src="./assets/player_icon5.png" alt="" class="player-icon-img">
+                </div>
+                <div class="lower">
+                    <span class="start-time">00:00</span>
+                    <input type="range" class="music-range" min="0" max="213" value="0">
+                    <span class="tot-time">03:33</span>
+
+                </div>
+            </div>
+            <div class="right">
+                   <img src="./assets/playbar/controls_icon1.png" alt="">
+                   <img src="./assets/playbar/controld_icon2.png" alt="">
+                   <img src="./assets/playbar/controls_icon3.png" alt="" class="big-img">
+                   <img src="./assets/playbar/controls_icon4.png" alt="" class="big-img">
+                   <img src="./assets/playbar/controls_icon5.png" alt="">
+                   <input type="range">
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
+    <script>
+        // Get the elements
+const startTimeElement = document.querySelector('.start-time');
+const musicRange = document.querySelector('.music-range');
+const totalTimeElement = document.querySelector('.tot-time');
+
+// Function to convert seconds to "mm:ss" format
+function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+}
+
+// Variable to store the interval ID
+let intervalId;
+
+// Function to start the timer
+function startTimer() {
+    // Clear any existing interval to avoid multiple intervals running
+    clearInterval(intervalId);
+
+    // Start a new interval
+    intervalId = setInterval(() => {
+        let currentTime = parseInt(musicRange.value);
+
+        // Stop the interval if the current time reaches the max value
+        if (currentTime >= parseInt(musicRange.max)) {
+            clearInterval(intervalId);
+            return;
+        }
+
+        // Increment the time and update the range input
+        currentTime++;
+        musicRange.value = currentTime;
+
+        // Update the start time display
+        startTimeElement.textContent = formatTime(currentTime);
+    }, 1000); // Update every second
+}
+
+// Update the start time when the range input changes
+musicRange.addEventListener('input', () => {
+    const currentTime = parseInt(musicRange.value);
+    startTimeElement.textContent = formatTime(currentTime);
+
+    // Clear the interval if the user manually changes the range input
+    clearInterval(intervalId);
+});
+
+// Start the timer when the user stops interacting with the range input
+musicRange.addEventListener('change', () => {
+    startTimer();
+});
+
+// Optional: Start the timer automatically when the page loads
+// startTimer();
+    </script>
+</body>
+
+</html>

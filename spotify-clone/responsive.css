@@ -1,0 +1,76 @@
+/* Responsive CSS */
+
+@media screen and (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+        height: auto;
+        gap: 0;
+    }
+    .sidebar {
+        width: 100%;
+        border-radius: 0;
+    }
+    .main-content {
+        width: 100%;
+        border-radius: 0;
+    }
+    .music-player {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        /* display: none; Hides sidebar on smaller screens */
+    }
+    .main {
+        margin: 0;
+        flex-direction: column;
+    }
+    .main-content {
+        width: 100%;
+        height: auto;
+        padding-bottom: 80px; /* Adjust for music player */
+    }
+    .music-player {
+        height: 60px;
+    }
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .nav-option {
+        font-size: 14px;
+    }
+    .spo-button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    .main {
+        margin: 0;
+    }
+    .music-player {
+        height: 50px;
+    }
+    .nav-option i {
+        font-size: 16px;
+    }
+    .spo-button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    .library {
+        padding: 0.5rem;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Number Game Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #000000;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #ffffff; /* White container */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007BFF; /* Blue */
+        }
+        h2 {
+            color: #FF5733; /* Red */
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333333; /* Dark Gray */
+        }
+        .highlight {
+            color: #FFA500; /* Orange */
+            font-weight: bold;
+        }
+        .quit {
+            color: #FF5733; /* Red */
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666666; /* Medium Gray */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎯 Guessing Number Game - How to Play?</h1>
+
+        <p>Welcome to the <span class="highlight">Guessing Number Game</span>! 🕹️ Test your luck and guessing skills by finding the correct number.</p>
+
+        <h2>🎮 Game Rules:</h2>
+        <p>1️⃣ Enter the <span class="highlight">maximum number</span> (sets the range).</p>
+        <p>2️⃣ The computer will <span class="highlight">generate a random number</span> between <b>1</b> and your chosen max.</p>
+        <p>3️⃣ Try to <span class="highlight">guess the number</span>!</p>
+        <p>4️⃣ You will get a <span class="highlight">hint</span> after each guess:</p>
+        <p> - <span class="highlight">"Your guess was too small"</span> → Try a higher number.</p>
+        <p> - <span class="highlight">"Your guess was too large"</span> → Try a lower number.</p>
+        <p>5️⃣ Keep guessing until you find the <span class="highlight">correct number</span>! 🎉</p>
+
+        <h2>⏹️ How to Exit the Game?</h2>
+        <p>If you want to <span class="quit">quit</span>, type <span class="quit">"quit"</span> instead of a number.</p>
+
+        <h2>🏆 Winning the Game:</h2>
+        <p>If your guess is correct, you win! 🎊</p>
+        <p>The game will display: <span class="highlight">"You are right, congratulations! 🎉 The random number was [X]"</span></p>
+
+        <h2>⚠ Important Notes:</h2>
+        <p>✔️ Enter <span class="highlight">only numbers</span> (except for "quit").</p>
+        <p>✔️ The game <span class="highlight">won’t accept letters or symbols</span>.</p>
+        <p>✔️ Have fun and test your skills! 🎮</p>
+
+        <p class="footer">🔄 Try it now and see how quickly you can guess the number! 🚀</p>
+    </div>
+
+    <script src="gussing.js"></script>
+
+</body>
+</html>

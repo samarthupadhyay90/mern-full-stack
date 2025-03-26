@@ -1,0 +1,59 @@
+.page{
+    width: 100%;
+    /* display: flex; */
+
+    /* text-align: center; */
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.page h1{
+    color: red;
+    text-align: center;
+}
+.page h3{
+    color: black;
+    text-align: center;
+
+}
+
+.poem{
+
+    color:  #964B00;
+    line-height: 30px;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+    margin: 0px auto;
+
+    /* display: flex;
+    justify-content: center; */
+}
+.poem span{
+    text-decoration: underline;
+    font-weight: 900;
+    font-style: italic;
+
+}
+.wikipedia{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+
+}
+button{
+    background-color: white;
+    border-radius: 5px ;
+    border: 1px solid black;
+    color: blueviolet;
+
+}
+textarea{
+    color: #000000;
+    font-weight: 900;
+    font-style: italic;
+
+}
+
