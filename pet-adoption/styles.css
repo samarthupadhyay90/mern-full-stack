@@ -1,0 +1,88 @@
+body{
+    background-attachment: fixed;
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2 i{
+    color: #d56f3e;
+    font-size: 23px;
+    padding: 20px;
+    padding-left: 0px;
+
+}
+
+h1 span{
+    color: chocolate;
+    font-style: italic;
+    font-weight: 900;
+
+}
+
+#pets{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+
+.card{
+ border: 1px solid black;
+ border-radius: 30px;
+  width: 30%;
+  padding: 20px;
+
+
+}
+
+@media screen and  (max-width:768px) {
+    #pets{
+        display: grid;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 20px;
+    
+    }
+    
+.card{
+    border: 1px solid black;
+    border-radius: 30px;
+     width: 90%;
+     padding: 20px;
+   
+   
+   }
+}
+
+.card img{
+    width: 100%;
+    /* margin: 20px; */
+   border-radius:30px ;
+}
+
+.card h3{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   color: black;
+   font-weight: bold;
+
+}
+
+.card p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    /* color: black; */
+    /* font-weight: bold; */
+
+    font-style: italic;
+    
+ 
+ }
+
+ h4 {
+    text-align: right;
+    color: #3c787e;
+  }

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice-level-3</title>
+</head>
+<body>
+    
+
+    <section>
+        <div>
+            <table border="black">
+                <caption>Student Information.</caption>
+                <tr>
+                    <th rowspan="6">Info</th>
+                    <th rowspan="2">Name</th>
+                    <th colspan="2">Address</th>
+
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>House</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>Delhi</td>
+                    <td>1</td>
+
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>Mumbai</td>
+                    <td>2</td>
+
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Kolkata</td>
+                    <td>3</td>
+
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>Pune</td>
+                    <td>4</td>
+
+                </tr>
+            </table>
+        </div>
+
+        <br>
+        <br>
+        <hr>
+
+
+        <div class="form">
+            <form action="/server">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="UserName">
+  <br>
+                <div>
+                    <label for="sex">Sex:</label>
+                    <input type="radio" name="sex" value="male" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="sex" value="female" id="female">
+                    <label for="female">female</label>
+                </div>
+                <br>
+
+                <div>
+                    <label for="dropdown">Country:</label>
+                      <select name="Country" id="dropdown">
+                        <option selected>select an option</option>
+                        <option value="india" >India</option>
+                        <option value="USA" >USA</option>
+                        <option value="Canada" >Canada</option>
+                        <option value="nepal">Nepal</option>
+                      </select>
+                </div>
+                <br>
+
+                <div>
+                    <label for="textarea">Massage:</label>
+                    <br>
+                    <textarea name="textarea" id="textarea" placeholder="write something here....." cols="100" rows="10"></textarea>
+                </div>
+  <br>
+
+  <div>
+     <input type="checkbox" name="checkbox" id="">
+  <label for="checkbox">Subscribe?</label>
+  </div>
+
+  <br>
+
+  <button type="submit">submit</button>
+  
+            </form>
+        </div>
+
+        <br>
+        <br>
+        <hr>
+        <div class="re-form">
+            <h1>Feedback Form</h1>
+            <form action="/server">
+               <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="write your name">
+               </div>
+               <br>
+               <div>
+                <label for="Email">Email:</label>
+                <input type="url" id="Email" placeholder="write your email">
+               </div>
+               <br>
+               <div>
+
+                <label for="textarea">Massage:</label>
+                <br>
+                 <textarea name="textarea" id="textarea" placeholder="write something here....." cols="100" rows="10"></textarea>     
+          </div>
+          <br>
+           <div>
+            <label for="checkbox">Rate us our of 5:</label>
+            <br>
+            <input type="radio" name="rate-us" id="checkbox-1" value="1">
+            <label for="checkbox-1">1</label>
+            <br>
+            <input type="radio" name="rate-us" id="checkbox-2"  value="2">
+            <label for="checkbox-2">2</label><br>
+            <input type="radio" name="rate-us" id="checkbox-3" value="3">
+            <label for="checkbox-3">3</label><br>
+            <input type="radio" name="rate-us" id="checkbox-4" value="4">
+            <label for="checkbox-4">4</label>
+            <br>
+            <input type="radio" name="rate-us" id="checkbox-5" value="5">
+            <label for="checkbox-5">5</label>
+           </div>
+           <br>
+           <br>
+           <div>
+            <button type="submit">Send your Massage</button>
+            <button type="reset">Reset</button>
+
+           </div>
+        </form>
+        </div>
+    </section>
+</body>
+</html>

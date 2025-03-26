@@ -1,0 +1,61 @@
+ *{
+    text-align: center;
+
+ }
+
+#mainTopic{
+    color: blue;
+
+}
+
+h1, 
+h3, 
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+h1::first-letter{
+    color: red;
+
+}
+.p{
+    background-color: cornflowerblue;
+    color: white;
+    width: fit-content;
+    text-align: center;
+    padding: 5px;
+    margin: 10px auto;
+    border: cornflowerblue;
+    border-radius: 5px;
+}
+
+
+p:nth-child(odd){
+    color: yellow;
+
+}
+div button{
+    background-color: purple;
+    color: azure;
+
+}
+div button:hover{
+    background-color: yellow;
+    color: blue;
+
+}
+
+input[type="checkbox"]:checked + label {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+
+ul li{
+    text-decoration: none !important;
+    margin: 0px auto;
+
+    text-align: start;
+
+}
