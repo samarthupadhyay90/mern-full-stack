@@ -1,0 +1,15 @@
+{
+  "name": "expressdir",
+  "version": "1.0.0",
+  "description": "this is my first expres directory...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samarth upadhyay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "expressdir": "file:"
+  }
+}
